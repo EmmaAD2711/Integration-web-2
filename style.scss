@@ -1,0 +1,103 @@
+$primaire: #11118B;
+$derriere: #EEEEFC;
+$petit: #272727;
+$ecrit: white;
+$mesure: 38px;
+
+@mixin stunning($color: $primaire){
+    font-family: "Lato", sans-serif;
+    color: $color;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+@mixin paragraphe(){
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: $mesure;
+    padding-top: $mesure;
+}
+
+@mixin fin(){
+    margin-top: 14px;
+    padding-left: $mesure;
+    padding-bottom: $mesure;
+    padding-right: 52px;
+    color: $petit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    @include stunning($color: $ecrit);
+    font-weight: 700;
+    font-size: 45px;
+    background-color: $primaire;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 60px;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    height: 410px;   
+}
+
+.debut{
+    @include stunning();
+
+    h2{
+        font-weight: 700;
+        font-size: 60px;
+        margin-top: 50px;
+    }
+
+    .accroche{
+        color: $petit;
+        font-size: 23px;
+        margin-top: 14px;
+        font-weight: 400;
+    }
+
+    button{
+        background-color: $primaire;
+        border-style: none;
+        color: $ecrit;
+        font-size: 23px;
+        margin-top: 26px;
+        padding: 16px 24px;
+    }
+}
+
+.para1{
+    @include stunning();
+    background-color: $derriere;
+    margin-top: 54px;
+
+    .develop{
+       @include paragraphe();
+    }
+
+    .integer{
+        @include fin();
+    }
+}
+
+.para2{
+    @include stunning();
+    background-color: $derriere;
+    margin-top: 35px;
+
+    .unreal{
+        @include paragraphe();
+    }
+
+    .lacus{
+        @include fin();
+        margin-bottom: 108px;
+    }
+}

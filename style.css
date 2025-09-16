@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Lato", sans-serif;
+  color: white;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-weight: 700;
+  font-size: 45px;
+  background-color: #11118B;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  padding-left: 60px;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: 410px;
+}
+
+.debut {
+  font-family: "Lato", sans-serif;
+  color: #11118B;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.debut h2 {
+  font-weight: 700;
+  font-size: 60px;
+  margin-top: 50px;
+}
+.debut .accroche {
+  color: #272727;
+  font-size: 23px;
+  margin-top: 14px;
+  font-weight: 400;
+}
+.debut button {
+  background-color: #11118B;
+  border-style: none;
+  color: white;
+  font-size: 23px;
+  margin-top: 26px;
+  padding: 16px 24px;
+}
+
+.para1 {
+  font-family: "Lato", sans-serif;
+  color: #11118B;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #EEEEFC;
+  margin-top: 54px;
+}
+.para1 .develop {
+  font-size: 45px;
+  font-weight: 700;
+  padding-left: 38px;
+  padding-top: 38px;
+}
+.para1 .integer {
+  margin-top: 14px;
+  padding-left: 38px;
+  padding-bottom: 38px;
+  padding-right: 52px;
+  color: #272727;
+}
+
+.para2 {
+  font-family: "Lato", sans-serif;
+  color: #11118B;
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: #EEEEFC;
+  margin-top: 35px;
+}
+.para2 .unreal {
+  font-size: 45px;
+  font-weight: 700;
+  padding-left: 38px;
+  padding-top: 38px;
+}
+.para2 .lacus {
+  margin-top: 14px;
+  padding-left: 38px;
+  padding-bottom: 38px;
+  padding-right: 52px;
+  color: #272727;
+  margin-bottom: 108px;
+}/*# sourceMappingURL=style.css.map */
